@@ -1,0 +1,55 @@
+body{
+    background: rgba(223, 8, 8, 0.767);
+}
+
+h1{
+    font: 40px arial;
+    font-style: italic;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 7%;
+}
+
+section{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);  
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+}
+
+#seltab{
+    padding: 2%;
+}
+
+p{
+    font: 20px arial;
+    font-style: italic;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+@media(max-width:800px) {
+    section{
+        padding: 0;
+        width: 100%;
+    }
+
+    p{
+        padding: 3%;
+    }
+
+    #seltab{
+        margin-bottom: 3%;
+    }
+}
